@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ページのタイトル(ブラウザのタブ名になる) -->
+    <title>吹き出しメーカー</title>
+    <!-- スタイルシート(CSS)を読み込み -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- ページの内容 -->
+<body>
+    <!-- ページの見出し -->
+    <h1>吹き出しメーカー</h1>
+
+    <!-- メッセージ入力欄 -->
+    <input type="text" id="message" placeholder="メッセージを入力">
+    <!-- メッセージ作成ボタン -->
+    <button onclick="createBubble()">作成</button>
+
+    <div>
+        <!-- 出力用テキストエリア -->
+        <textarea disabled id="output"></textarea>
+    </div>
+
+    <!-- スクリプト(JavaScriptファイル)を読み込み -->
+    <script src="script.js"></script>
+</body>
+</html>

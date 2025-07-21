@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: aqua;
+}
+
+#output {
+    margin-top: 20px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    font-size: 14px;
+    width: 30rem;
+    height: 10rem;
+}
